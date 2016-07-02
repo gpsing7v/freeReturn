@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Freeing Return</string>
+    <string name="logo">logo</string>
+    <string name="register_here">Register Here</string>
+    <string name="name">Name</string>
+    <string name="no_account_yet">No Account Yet?</string>
+    <string name="my_tb_title">Freeing Return</string>
+    <string name="menu_1">Home</string>
+    <string name="menu_2">Settings</string>
+    <string name="menu_3">Customer Support</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="main_content">Main Content</string>
+    <string name="free_up_your_returns">Free Up Your Returns!</string>
+</resources>
