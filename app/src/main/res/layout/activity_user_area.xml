@@ -39,6 +39,18 @@
             android:gravity="start"
             android:layout_gravity="center_horizontal"/>
 
+        <Button
+            android:id="@+id/date"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="12dp"
+            android:background="#ffffff"
+            android:hint="@string/select_date"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="20sp" />
     </LinearLayout>
 
 
