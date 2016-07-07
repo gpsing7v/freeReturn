@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spinner" type="id">spinner</item>
+    <item name="Retailer" type="id">Retailer</item>
+</resources>

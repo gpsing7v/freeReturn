@@ -13,4 +13,17 @@
     <string name="main_content">Main Content</string>
     <string name="free_up_your_returns">Free Up Your Returns!</string>
     <string name="select_date">Select Date</string>
+    <string name="selectRetailer">Select Retailer</string>
+    <string name="select_retailer">Choose a Retailer</string>
+    <string name="search">Search</string>
+
+
+    <string-array name="Retailer">
+        <item>Kroger</item>
+        <item>Costco</item>
+        <item>The Home Depot</item>
+        <item>Walgreens</item>
+        <item>Target</item>
+        <item>CVS</item>
+    </string-array>
 </resources>
