@@ -39,18 +39,56 @@
             android:gravity="start"
             android:layout_gravity="center_horizontal"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Date Bought"
+            android:layout_marginStart="15dp"/>
+
         <Button
             android:id="@+id/date"
             android:layout_width="388dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:layout_margin="12dp"
-            android:background="#ffffff"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="12dp"
             android:hint="@string/select_date"
             android:padding="15dp"
             android:textColor="#000000"
             android:textColorHint="#000000"
             android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/select_retailer"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="15dp"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/Retailer"
+            android:prompt="@string/select_retailer"
+            android:spinnerMode="dropdown"
+            android:dropDownSelector="#ffffff"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:minHeight="30dp">
+        </Spinner>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="@string/search"/>
     </LinearLayout>
 
 
